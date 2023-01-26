@@ -1,0 +1,145 @@
+/**********ROOT************/
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans';
+}
+
+/**********HEADER***********/
+.container-header{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    width: 100%;
+    height: 50px;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.p-header{
+    color: whitesmoke;
+    font-family: 'Open Sans';
+    font-weight:800;
+    font-size: 25px;
+}
+
+.hr-header{
+    width: 100%;
+    height: 10px;
+    background-color: #fd8a24;
+    margin: 0;
+}
+
+/************TITULO E SUBTITULO**********/
+.principal{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.principal-titulos{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.principal-titulo{
+    color: #111;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.principal-subtitulo{
+    color:#333;
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.principal-container-autor{
+    margin-left: 15%;
+}
+
+.principal-autor{
+    color: #111;
+    font-size: 12px;
+    font-weight:600;
+    margin-bottom: 10px;
+}
+
+.principal-data{
+    color: #333;
+    font-size: 10px;
+    margin-bottom: 30px;
+}
+
+.principal-links{
+    display: flex;
+    max-width: 120px;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.linha-separador{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+/********************SECTION 1********************/
+.section-conteudo{
+    margin-left: 22%;
+    margin-right: 22%;
+    line-height: 25px;
+    color: #333;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.section-paragrafo-1{
+    margin-bottom: 10px;
+}
+
+.section-link-1{
+    color: #fd8a24;
+    font-weight: bold;
+}
+
+.section-subtitulo{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.imagem-section-1{
+    margin-top: 20px;
+}
+
+figcaption{
+    font-size: 10px;
+    margin-bottom: 20px;
+    line-height: 14px;
+}
+
+#section-paragrafo-link{
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+#section-paragrafo{
+    margin-bottom: 20px;
+}
+
+/*****************FOOTER********************/
+.footer-container{
+    width: 100%;
+    height: 50px;
+    background-color: #333;
+    margin-top: 80px;
+}
